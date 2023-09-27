@@ -1,0 +1,47 @@
+body{
+color:rgb(14, 13, 13);
+font-family: Arial, Helvetica, sans-serif;
+max-width: 650px;
+/* background-color: brown; */
+margin: 0 auto;
+padding: 0 16px;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+.main-content{
+flex-grow: 1;
+}
+footer{
+color: rgb(143, 139, 139);
+border-top: 1px solid rgb(164, 183, 164);
+margin-top: 16px;
+padding:16px 0 ;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+ h1{
+  font-size: 45px;
+}
+header a{
+    color: rgb(58, 103, 154);
+    text-decoration: none;
+    margin-right: 16px;
+}
+/*img{
+    width: 255px;
+} */
+input{
+    padding: 8px;
+    border: 1px solid rgb(227, 211, 211);
+}
+button{
+    padding: 8px;
+    background-color: rgb(138, 133, 133);
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(227, 211, 211);
+}
